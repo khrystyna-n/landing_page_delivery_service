@@ -13,4 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	@@include('partial/external-link-norefer.js')
 	@@include('partial/protect-image.js')
 	@@include('partial/responsive-table.js')
+	@@include('partial/swiper.js')
+	@@include('partial/menu-burger.js')
 });
+
+
+function active() {
+  let menuOpen = document.querySelector('.burger-menu');
+  let menuClose = document.querySelector('.burger-menu__close-button');
+  menuOpen.classList.toggle('burger-menu-active');
+  menuClose.classList.toggle('burger-menu-active');
+}

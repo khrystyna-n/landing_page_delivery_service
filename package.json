@@ -71,6 +71,7 @@
 		"sass": "^1.55.0"
 	},
 	"dependencies": {
-		"reseter.css": "^2.0.0"
+		"reseter.css": "^2.0.0",
+		"swiper": "^9.0.5"
 	}
 }

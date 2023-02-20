@@ -1,42 +1,14 @@
 @@include('partial/header.html', {"title": "FrontEnd Starter"})
 
-<section id="how-to-use" class="section section_offset">
-	<h2 class="section__title">How to use</h2>
-	<ol>
-		<li>Download/Clone <a href="https://github.com/zakandaiev/frontend-starter" target="_blank">FrontEnd Starter from GitHub</a></li>
-		<li>Install Node Modules using <span class="label label_info">npm i</span></li>
-		<li>Explore <span class="label label_info">package.json</span> & <span class="label label_info">gulpfile.js</span> to learn how it works</li>
-		<li>Explore <span class="label label_info">src</span> folder to learn structure logic</li>
-		<li>
-			Use
-			<ul>
-				<li><span class="label label_info">npm run dev</span> or <span class="label label_info">gulp</span> task to start Dev mode</li>
-				<li><span class="label label_info">npm run prod</span> or <span class="label label_info">gulp --prod</span> task to start Prod mode</li>
-			</ul>
-		</li>
-		<li>Enjoy ;)</li>
-	</ol>
-</section>
+<main>
+	@@include('partial/menu_burger.html')
+	@@include('partial/category_section.html')
+	@@include('partial/good_food_section.html')
+	@@include('partial/restaurant_section.html')
+	@@include('partial/mobile_app_section.html')
+	@@include('partial/client_section.html')
+	@@include('partial/subscribe_section.html')
+</main>
 
-<section id="features" class="section section_offset">
-	<h2 class="section__title">Features</h2>
-	<ul>
-		<li>Well thought-out structure</li>
-		<li>Dev & Prod modes</li>
-		<li>Gulp 4 task manager</li>
-		<li>HTML5 and CSS3 ready</li>
-		<li>SASS/SCSS preprocessor</li>
-		<li>File include engine</li>
-		<li>Autoprefixer</li>
-		<li>Babel</li>
-		<li>Browsersync server & watcher</li>
-		<li>HTML, CSS, JS, images auto minifier</li>
-		<li>reseter.css</li>
-		<li>.htaccess, robots.txt, sitemap.xml, favicon</li>
-		<li>SEO friendly</li>
-		<li>404 page</li>
-		<li>And more...</li>
-	</ul>
-</section>
 
 @@include('partial/footer.html')
