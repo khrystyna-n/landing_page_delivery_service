@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	@@include('partial/responsive-table.js')
 	@@include('partial/swiper.js')
 	@@include('partial/menu-burger.js')
+	
 });
 
 
@@ -23,4 +24,22 @@ function active() {
   let menuClose = document.querySelector('.burger-menu__close-button');
   menuOpen.classList.toggle('burger-menu-active');
   menuClose.classList.toggle('burger-menu-active');
+}
+
+
+let topButton = document.querySelector('.topBtn');
+  
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    topButton.style.display = "block";
+  } else {
+    topButton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
