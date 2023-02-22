@@ -28,7 +28,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"homepage": "https://github.com/khrystyna-n/landing_page_delivery_service"
+		"homepage": "https://khrystyna-n/landing_page_delivery_service"
 	},
 	"main": "index.js",
 	"scripts": {
