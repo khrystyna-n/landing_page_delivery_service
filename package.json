@@ -27,8 +27,7 @@
 		"favicon"
 	],
 	"repository": {
-		"type": "git",
-		"homepage": "https://khrystyna-n/landing_page_delivery_service"
+		"type": "git"
 	},
 	"main": "index.js",
 	"scripts": {
@@ -71,6 +70,7 @@
 		"gulp-terser": "^2.1.0",
 		"sass": "^1.55.0"
 	},
+	"homepage": "https://khrystyna-n/landing_page_delivery_service",
 	"dependencies": {
 		"gh-pages": "^5.0.0",
 		"reseter.css": "^2.0.0",
