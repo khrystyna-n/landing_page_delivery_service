@@ -1,6 +1,5 @@
 const BASE_URL = window.location.protocol + '//' + window.location.host;
 
-@@include('partial/watermark.js')
 
 // UTILS
 @@include('util/fade-out.js')
